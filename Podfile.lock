@@ -1,0 +1,32 @@
+PODS:
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - SegementSlide (2.0-beta-13)
+  - SwipeMenuViewController (3.0.0)
+
+DEPENDENCIES:
+  - PromiseKit (~> 6.8)
+  - SegementSlide (= 2.0-beta-13)
+  - SwipeMenuViewController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PromiseKit
+    - SegementSlide
+    - SwipeMenuViewController
+
+SPEC CHECKSUMS:
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  SegementSlide: 181cd6f0e2e9c7287a295077e47c29f43d9caf40
+  SwipeMenuViewController: 572a6fcd7fa95c3d744c760d5e836896817c5735
+
+PODFILE CHECKSUM: bf42feae4c768f5c1c7e94578b62f9a9420736c5
+
+COCOAPODS: 1.5.0

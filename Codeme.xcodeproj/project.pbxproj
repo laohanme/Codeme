@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		4D0B25292202905300CD60F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B25282202905300CD60F6 /* AppDelegate.swift */; };
-		4D0B252B2202905300CD60F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B252A2202905300CD60F6 /* ViewController.swift */; };
+		4D0B252B2202905300CD60F6 /* SwipeMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B252A2202905300CD60F6 /* SwipeMenuVC.swift */; };
 		4D0B252E2202905300CD60F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B252C2202905300CD60F6 /* Main.storyboard */; };
 		4D0B25312202905300CD60F6 /* Codeme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B252F2202905300CD60F6 /* Codeme.xcdatamodeld */; };
 		4D0B25332202905600CD60F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B25322202905600CD60F6 /* Assets.xcassets */; };
 		4D0B25362202905600CD60F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B25342202905600CD60F6 /* LaunchScreen.storyboard */; };
+		4DD6A1A222158AB90036E6C8 /* SwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6A1A122158AB90036E6C8 /* SwiftVC.swift */; };
+		4DD6A1A422158AC60036E6C8 /* HelloWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6A1A322158AC60036E6C8 /* HelloWorldVC.swift */; };
+		4DD6A1A622158AD70036E6C8 /* ObjectiveCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6A1A522158AD70036E6C8 /* ObjectiveCVC.swift */; };
+		4DD6A1AB22165D0D0036E6C8 /* SegmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6A1AA22165D0D0036E6C8 /* SegmentVC.swift */; };
+		4DD6A1AD22165D3D0036E6C8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6A1AC22165D3D0036E6C8 /* HomeVC.swift */; };
+		ACB2D6224167A9F80D69AE2F /* Pods_Codeme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950581DF2AE202423793D816 /* Pods_Codeme.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B7B944D7690A0D991CCE20B /* Pods-Codeme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codeme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codeme/Pods-Codeme.release.xcconfig"; sourceTree = "<group>"; };
 		4D0B25252202905300CD60F6 /* Codeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B25282202905300CD60F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D0B252A2202905300CD60F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D0B252A2202905300CD60F6 /* SwipeMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMenuVC.swift; sourceTree = "<group>"; };
 		4D0B252D2202905300CD60F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0B25302202905300CD60F6 /* Codeme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Codeme.xcdatamodel; sourceTree = "<group>"; };
 		4D0B25322202905600CD60F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0B25352202905600CD60F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0B25372202905600CD60F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD6A1A122158AB90036E6C8 /* SwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVC.swift; sourceTree = "<group>"; };
+		4DD6A1A322158AC60036E6C8 /* HelloWorldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldVC.swift; sourceTree = "<group>"; };
+		4DD6A1A522158AD70036E6C8 /* ObjectiveCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveCVC.swift; sourceTree = "<group>"; };
+		4DD6A1AA22165D0D0036E6C8 /* SegmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentVC.swift; sourceTree = "<group>"; };
+		4DD6A1AC22165D3D0036E6C8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		950581DF2AE202423793D816 /* Pods_Codeme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Codeme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A63D7082EB5073160CABCD /* Pods-Codeme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codeme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Codeme/Pods-Codeme.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB2D6224167A9F80D69AE2F /* Pods_Codeme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				4D0B25272202905300CD60F6 /* Codeme */,
 				4D0B25262202905300CD60F6 /* Products */,
+				DC41896C0E6B46B6E7D55704 /* Pods */,
+				8E28FFFDCFDAC4901E01E974 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,61 @@
 		4D0B25272202905300CD60F6 /* Codeme */ = {
 			isa = PBXGroup;
 			children = (
+				4DD6A1A922165CF70036E6C8 /* SegmentSlide */,
+				4DD6A1A022158AAA0036E6C8 /* Files */,
+				4DB0C19D2215002800786873 /* SwipeMenu */,
 				4D0B25282202905300CD60F6 /* AppDelegate.swift */,
-				4D0B252A2202905300CD60F6 /* ViewController.swift */,
 				4D0B252C2202905300CD60F6 /* Main.storyboard */,
-				4D0B25322202905600CD60F6 /* Assets.xcassets */,
 				4D0B25342202905600CD60F6 /* LaunchScreen.storyboard */,
+				4D0B25322202905600CD60F6 /* Assets.xcassets */,
 				4D0B25372202905600CD60F6 /* Info.plist */,
 				4D0B252F2202905300CD60F6 /* Codeme.xcdatamodeld */,
 			);
 			path = Codeme;
+			sourceTree = "<group>";
+		};
+		4DB0C19D2215002800786873 /* SwipeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B252A2202905300CD60F6 /* SwipeMenuVC.swift */,
+			);
+			path = SwipeMenu;
+			sourceTree = "<group>";
+		};
+		4DD6A1A022158AAA0036E6C8 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6A1A322158AC60036E6C8 /* HelloWorldVC.swift */,
+				4DD6A1A122158AB90036E6C8 /* SwiftVC.swift */,
+				4DD6A1A522158AD70036E6C8 /* ObjectiveCVC.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		4DD6A1A922165CF70036E6C8 /* SegmentSlide */ = {
+			isa = PBXGroup;
+			children = (
+				4DD6A1AA22165D0D0036E6C8 /* SegmentVC.swift */,
+				4DD6A1AC22165D3D0036E6C8 /* HomeVC.swift */,
+			);
+			path = SegmentSlide;
+			sourceTree = "<group>";
+		};
+		8E28FFFDCFDAC4901E01E974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				950581DF2AE202423793D816 /* Pods_Codeme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC41896C0E6B46B6E7D55704 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3A63D7082EB5073160CABCD /* Pods-Codeme.debug.xcconfig */,
+				4B7B944D7690A0D991CCE20B /* Pods-Codeme.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D0B253A2202905600CD60F6 /* Build configuration list for PBXNativeTarget "Codeme" */;
 			buildPhases = (
+				039ADE83E6C2F315B3459844 /* [CP] Check Pods Manifest.lock */,
 				4D0B25212202905300CD60F6 /* Sources */,
 				4D0B25222202905300CD60F6 /* Frameworks */,
 				4D0B25232202905300CD60F6 /* Resources */,
+				DECEC353674711F95CB23C85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +198,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		039ADE83E6C2F315B3459844 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Codeme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECEC353674711F95CB23C85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Codeme/Pods-Codeme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeMenuViewController/SwipeMenuViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeMenuViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Codeme/Pods-Codeme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D0B25212202905300CD60F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0B252B2202905300CD60F6 /* ViewController.swift in Sources */,
+				4D0B252B2202905300CD60F6 /* SwipeMenuVC.swift in Sources */,
+				4DD6A1AD22165D3D0036E6C8 /* HomeVC.swift in Sources */,
+				4DD6A1AB22165D0D0036E6C8 /* SegmentVC.swift in Sources */,
+				4DD6A1A422158AC60036E6C8 /* HelloWorldVC.swift in Sources */,
+				4DD6A1A222158AB90036E6C8 /* SwiftVC.swift in Sources */,
+				4DD6A1A622158AD70036E6C8 /* ObjectiveCVC.swift in Sources */,
 				4D0B25312202905300CD60F6 /* Codeme.xcdatamodeld in Sources */,
 				4D0B25292202905300CD60F6 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +403,7 @@
 		};
 		4D0B253B2202905600CD60F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A63D7082EB5073160CABCD /* Pods-Codeme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +422,7 @@
 		};
 		4D0B253C2202905600CD60F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7B944D7690A0D991CCE20B /* Pods-Codeme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
